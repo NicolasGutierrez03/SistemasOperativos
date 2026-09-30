@@ -1,0 +1,25 @@
+1: limpiar_terreno: 300:
+2: comprar_madera: 400:
+3: comprar_clavos: 200:
+4: armar_estructura: 600: 1,2,3
+5: instalar_techo: 500: 4
+6: comprar_luces: 150:
+7: instalar_iluminacion: 450: 5,6
+8: comprar_carne_masiva: 800:
+9: comprar_verduras: 400:
+10: preparar_anticuchos: 900: 8,9
+11: comprar_bebidas: 300:
+12: instalar_bar: 500: 4,11
+13: armar_parrilla_gigante: 600: 4
+14: prender_carbon_parrilla:: 13
+15: asar_anticuchos: 700: 10,14
+16: hacer_pebre: 400: 9
+17: comprar_empanadas: 350:
+18: calentar_empanadas: 200: 17
+19: contratar_banda: 1000:
+20: armar_escenario: 800: 4
+21: prueba_de_sonido: 400: 7,19,20
+22: decorar_fonda:: 5
+23: abrir_puertas: 100: 7,12,15,16,18,21,22
+24: recibir_publico: 600: 23
+25: tocar_cueca:: 23

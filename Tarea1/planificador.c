@@ -1,3 +1,6 @@
+#define _POSIX_C_SOURCE 200809L
+#define _DEFAULT_SOURCE
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -214,6 +217,7 @@ int main(int argc, char* argv[]) {
                                 char buf[128];
                                 // Leer exactamente un mensaje del pipe de la dependencia
                                 read(dag[dep_idx].pipe_fd[0], buf, sizeof(buf));
+                                printf("   [Mensaje recibido por %s] %s\n", dag[i].id, buf); // Mostrar quien recibe el mensaje
                             }
                         }
 
