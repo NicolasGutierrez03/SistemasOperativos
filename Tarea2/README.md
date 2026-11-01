@@ -24,7 +24,7 @@ Ejemplos:
 
 ```bash
 ./torneo 10 3                    # 10 jugadores, 3 mesas, partidas aleatorias
-./torneo 4 2 test_profesor.txt   # ejecuta los casos de prueba del enunciado
+./torneo 4 2 test_cases.txt   # ejecuta los casos de prueba del enunciado
 ```
 
 Variables de entorno opcionales:
@@ -46,8 +46,8 @@ Con Ctrl+C el programa detiene el ingreso de jugadores, cancela las partidas act
 | `matchmaker.c/h` | Jugadores, cola pasiva, emparejamiento, semáforo de M mesas, cierre ordenado |
 | `table.c` | Mesa: hilo Juez e hilos de fichas (1 Puma + 12 Perros) |
 | `parser.c/h` | Lectura y ejecución del archivo de casos de prueba |
-| `test_profesor.txt` | Casos de prueba entregados con la tarea |
-| `informe.tex` | Informe (diseño, riesgos de concurrencia, evaluación) |
+| `test_cases.txt` | Casos de prueba entregados con la tarea |
+| `Informe_Tarea2_SO.pdf` | Informe (diseño, riesgos de concurrencia, evaluación) |
 
 ## Diseño en breve
 
