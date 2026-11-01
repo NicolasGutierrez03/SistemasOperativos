@@ -2,8 +2,6 @@
 
 Tarea 2 de Sistemas Operativos: servidor Matchmaker, mesas de juego con árbitro (Juez) y fichas concurrentes en tiempo real, escrito en C17 con primitivas POSIX (`pthread_mutex`, `pthread_cond`, `sem_t`).
 
-**Integrantes:** _[Nombre 1]_, _[Nombre 2]_
-
 ## Compilar
 
 ```bash
